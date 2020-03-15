@@ -73,8 +73,8 @@ void startWiFiAP() {
 
 void setup() {
   Serial.begin(115200);
-  pinMode(0, OUTPUT); // Initialize GIO0 pin as an output
-  pinMode(2, INPUT); // Initialize GIO2 pin as an input
+  pinMode(0, OUTPUT); // Initialize GIO0 pin as an output (optional)
+  pinMode(2, INPUT); // Initialize GIO2 pin as an input (optional)
 
   startWiFiClient();
   startWiFiAP();
